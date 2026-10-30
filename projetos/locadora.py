@@ -1,6 +1,7 @@
 # Software de gestão para locadora de carros
 
 import os
+from py_compile import m0ain
 
 def limpar_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
