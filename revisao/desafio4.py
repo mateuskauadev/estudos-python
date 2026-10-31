@@ -18,5 +18,5 @@ while i <= 2:
 
     frete = calcular_frete(peso[i - 1], distancia[i - 1])
 
-    i = i + 1
     print(f"frete {i}: {frete}")
+    i = i + 1
